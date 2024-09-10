@@ -1,0 +1,93 @@
+
+.one:hover{
+    animation-name: one;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+@keyframes one {
+    10%{
+        transform: translatex(70px) rotate(90deg);
+    }
+    20%{
+        transform: translatex(140px) rotate(180deg);
+    }
+    30%{
+        transform: translatex(210px) rotate(270deg);
+    }
+    40%{
+        transform: translatex(280px) rotate(360deg);
+    }
+    
+
+
+
+    
+}
+    
+    
+.two:hover{
+    animation-name: two;
+    animation-direction:alternate;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+@keyframes two {
+    10%{
+        transform: translatex(-70px) rotate(-90deg) ;;
+        
+    }
+    20%{
+        transform: translatex(-140px) rotate(-180deg);
+    
+    }
+    30%{
+        transform: translatex(-210px) rotate(-270deg);
+        
+    }
+    40%{
+        transform: translatex(-280px) rotate(-360deg);
+        
+    }
+    
+
+
+
+    
+}
+.three:hover{
+    animation-name: three;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+@keyframes three {
+    10%{
+        transform: translatey(70px) rotate(90deg);
+    }
+    20%{
+        transform: translatey(140px) rotate(180deg);
+    }
+    30%{
+        transform: translatey(210px) rotate(270deg);
+    }
+    40%{
+        transform: translatey(280px) rotate(360deg);
+    }
+    
+}
+
+    
+    
